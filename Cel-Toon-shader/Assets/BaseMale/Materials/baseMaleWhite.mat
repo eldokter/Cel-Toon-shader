@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: baseMaleWhite
-  m_Shader: {fileID: 4800000, guid: 76374158b4c4e5744b394e9290aae693, type: 3}
+  m_Shader: {fileID: 4800000, guid: f18352d1227661348a981bd5518601b4, type: 3}
   m_ShaderKeywords:
   - _COLOR_ON
   - _OUTL_ON
@@ -42,6 +42,13 @@ Material:
           name: _Cube
         second:
           m_Texture: {fileID: 8900000, guid: 1a2ca08622f32df43883da15e813e9dc, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -96,7 +103,23 @@ Material:
       data:
         first:
           name: _Shininess
-        second: .0188682079
+        second: 1
+      data:
+        first:
+          name: _DiffuseThreshold
+        second: 1
+      data:
+        first:
+          name: _LitOutlineThickness
+        second: 1
+      data:
+        first:
+          name: _UnlitOutlineThickness
+        second: 1
+      data:
+        first:
+          name: _Parallax
+        second: .0199999996
     m_Colors:
       data:
         first:
@@ -105,7 +128,7 @@ Material:
       data:
         first:
           name: _OutlineColor
-        second: {r: 0, g: 0, b: 0, a: 1}
+        second: {r: 1, g: 0, b: 0, a: 1}
       data:
         first:
           name: _Asymmetry
@@ -113,8 +136,12 @@ Material:
       data:
         first:
           name: _SpecColor
-        second: {r: .682267606, g: .686567187, b: .532858133, a: 1}
+        second: {r: .972027779, g: 1, b: 0, a: 1}
       data:
         first:
           name: _ReflectColor
         second: {r: .522458971, g: .604477644, b: .378926307, a: .501960814}
+      data:
+        first:
+          name: _UnlitColor
+        second: {r: 1, g: 0, b: 0, a: 1}
