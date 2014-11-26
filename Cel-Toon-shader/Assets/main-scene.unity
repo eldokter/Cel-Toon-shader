@@ -165,7 +165,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400042, guid: 3f7cd3bda6c8d43e1a081db6f8657f21, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 3f7cd3bda6c8d43e1a081db6f8657f21, type: 3}
       propertyPath: m_Controller
@@ -1332,7 +1332,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: a691b8dad8ffb2443a5f68557b1e86d9, type: 2}
+  - {fileID: 2100000, guid: 42cff73efa9b72546a4438be382c6c74, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -2619,6 +2619,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: 0caed528e4bd30b46972dbef0bf5cdc6, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 42cff73efa9b72546a4438be382c6c74, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0caed528e4bd30b46972dbef0bf5cdc6, type: 2}
   m_RootGameObject: {fileID: 128274487}
