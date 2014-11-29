@@ -2,7 +2,7 @@ Shader "TSF/Base1"
 {
     Properties 
     {
-		[MaterialToggle(_OUTL_ON)] _Outl ("Outline", Float) = 0 						//0
+		[MaterialToggle(_OUTL_ON)] _Outl ("Outline", Float) = 0 					//0
 		[MaterialToggle(_TEX_ON)] _DetailTex ("Enable Detail texture", Float) = 0 	//1
 		_MainTex ("Detail", 2D) = "white" {}        								//2
 		_ToonShade ("Shade", 2D) = "white" {}  										//3
@@ -86,6 +86,8 @@ Shader "TSF/Base1"
                 
                 fixed4 frag (v2f i) : COLOR
                 {
+                
+				                
 					#if _COLOR_ON
 					fixed4 toonShade = tex2D( _ToonShade, i.uvn )*_Color;
 					#else
@@ -102,6 +104,6 @@ Shader "TSF/Base1"
             ENDCG
         }
     }
-    CustomEditor "TSF"
+   CustomEditor "TSF"
     Fallback "Diffuse"
 }
