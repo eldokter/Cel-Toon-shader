@@ -9,7 +9,6 @@
 	 
 	Properties {
 		_MainTex ("Base (RGB)", 2D) = "white" {}
-		_texture_map
 	}
 	SubShader {
 		Tags { "RenderType"="Opaque" }

@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: _mat1
+  m_Name: _testmat-2
   m_Shader: {fileID: 4800000, guid: 5ab885724b1943b45ab1ef59268adf75, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
@@ -23,24 +23,20 @@ Material:
     m_Floats:
       data:
         first:
-          name: _Outline
-        second: 3.02999997
-      data:
-        first:
           name: _Shininess
         second: 10
       data:
         first:
           name: _DiffuseThreshold
-        second: .100000001
+        second: .314285696
       data:
         first:
           name: _LitOutlineThickness
-        second: .33214286
+        second: .760714293
       data:
         first:
           name: _UnlitOutlineThickness
-        second: .382142872
+        second: .400000006
       data:
         first:
           name: _Diffusion
@@ -52,7 +48,7 @@ Material:
       data:
         first:
           name: _OutlineThickness
-        second: .100000001
+        second: .903571427
       data:
         first:
           name: _OutlineDiffusion
@@ -69,7 +65,7 @@ Material:
       data:
         first:
           name: _SpecColor
-        second: {r: 1, g: 1, b: 1, a: 1}
+        second: {r: 1, g: .0147058964, b: .0147058964, a: 1}
       data:
         first:
           name: _UnlitColor
