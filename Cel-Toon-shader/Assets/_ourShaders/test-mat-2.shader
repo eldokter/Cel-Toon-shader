@@ -4,13 +4,13 @@
 //      _UnlitColor ("Unlit Diffuse Color", Color) = (0.5,0.5,0.5,1) 
 //      _DiffuseThreshold ("Threshold for Diffuse Colors", Range(0,1)) 
 //         = 0.1 
-//      _OutlineColor ("Outline Color", Color) = (0,0,0,1)
+      _OutlineColor ("Outline Color", Color) = (0,0,0,1)
       _LitOutlineThickness ("Lit Outline Thickness", Range(0,1)) = 0.1
       _UnlitOutlineThickness ("Unlit Outline Thickness", Range(0,1))  = 0.4
 //      _SpecColor ("Specular Color", Color) = (1,1,1,1) 
 //      _Shininess ("Shininess", Float) = 10
       
-      _Outline ("Outline width", Float) = 0.01
+//      _Outline ("Outline width", Float) = 0.01
 //      		_Diffusion("Diffusion", Range(0,0.99)) = 0.0
 //      		_SpecDiffusion("Specular Diffusion", Range(0,0.99)) = 0.0
 //      		_OutlineThickness("Outline Thickness", Range(0,1)) = 0.1
@@ -19,6 +19,8 @@
 SubShader {
     Tags{"LightMode" = "ForwardBase"}
     Pass {
+    
+    	Name "TESTMAT"
     
         CGPROGRAM
 
@@ -62,8 +64,8 @@ SubShader {
             //o.color = float3(1.0,0.5,0.1);
             //input.normal * 0.5 + 0.5;
             //float4(input.vertex.xyz,1.0) + float4(0.5,0.5,0.5,0.0);
-            half4 posWorld = mul(_Object2World, input.vertex);
-			o.viewDir = normalize(_WorldSpaceCameraPos.xyz * posWorld.xyz);
+//            half4 posWorld = mul(_Object2World, input.vertex);
+//			o.viewDir = normalize(_WorldSpaceCameraPos.xyz * posWorld.xyz);
 			//half3 fragmentToLightSource = _WorldSpaceLightPos0.xyz - posWorld.xyz;
 			
 //			o.lightDir = fixed4(

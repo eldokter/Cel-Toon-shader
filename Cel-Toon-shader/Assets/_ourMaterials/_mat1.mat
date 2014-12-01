@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: _mat1
-  m_Shader: {fileID: 4800000, guid: 5ab885724b1943b45ab1ef59268adf75, type: 3}
+  m_Shader: {fileID: 4800000, guid: e2613f295a5556e4b93684700b21513e, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -20,11 +20,62 @@ Material:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ToonShade
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
+          name: _Cutoff
+        second: .5
+      data:
+        first:
+          name: _Outl
+        second: 0
+      data:
+        first:
+          name: _DetailTex
+        second: 0
+      data:
+        first:
+          name: _TintColor
+        second: 0
+      data:
+        first:
+          name: _VertexColor
+        second: 0
+      data:
+        first:
+          name: _Brightness
+        second: 1
+      data:
+        first:
+          name: _DS
+        second: 0
+      data:
+        first:
+          name: _Cull
+        second: 2
+      data:
+        first:
           name: _Outline
-        second: 3.02999997
+        second: 1
+      data:
+        first:
+          name: _Asym
+        second: 0
+      data:
+        first:
+          name: _Trans
+        second: 0
+      data:
+        first:
+          name: _TrOp
+        second: 0
       data:
         first:
           name: _Shininess
@@ -36,11 +87,11 @@ Material:
       data:
         first:
           name: _LitOutlineThickness
-        second: .33214286
+        second: .45714286
       data:
         first:
           name: _UnlitOutlineThickness
-        second: .382142872
+        second: .310714275
       data:
         first:
           name: _Diffusion
@@ -61,11 +112,15 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: 1, g: 1, b: 1, a: 1}
+        second: {r: 1, g: 0, b: 0, a: 1}
       data:
         first:
           name: _OutlineColor
         second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _Asymmetry
+        second: {r: 0, g: .25, b: .5, a: 0}
       data:
         first:
           name: _SpecColor
