@@ -1,4 +1,4 @@
-﻿Shader "ToonShader/toon-1" { //Shader command contains a string with the unique shader name and "/" character is used for simulating folder structure in Unity
+﻿Shader "ToonShader/toon-1-comments" { //Shader command contains a string with the unique shader name and "/" character is used for simulating folder structure in Unity
 //Shader is the root command of a shader file. Each file must define one (and only one) Shader. It specifies how any objects whose material uses this shader are rendered.
 //	
 	

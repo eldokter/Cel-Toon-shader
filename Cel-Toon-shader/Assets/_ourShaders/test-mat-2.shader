@@ -15,7 +15,7 @@
 //      		_SpecDiffusion("Specular Diffusion", Range(0,0.99)) = 0.0
 //      		_OutlineThickness("Outline Thickness", Range(0,1)) = 0.1
 //      		_OutlineDiffusion("Outline Diffusion", Range(0,1)) = 0.0
-   }
+}
 SubShader {
     Tags{"LightMode" = "ForwardBase"}
     Pass {
@@ -93,10 +93,7 @@ SubShader {
             else
                 return float4(L.x,L.y,L.z,1);
 
-            if (dot(i.viewDir, i.normalDir) < lerp(_UnlitOutlineThickness, _LitOutlineThickness, max(0.0, dot(i.normalDir, i.lightDir))))
-            {
-               return float4(_LightColor0.rgb * _OutlineColor.rgb,1.0); 
-            }
+
 
 
         }

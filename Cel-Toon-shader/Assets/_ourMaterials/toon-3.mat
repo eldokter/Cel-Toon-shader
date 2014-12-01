@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: toon-3
-  m_Shader: {fileID: 4800000, guid: 333602c57d0df1349a8385915f9e7198, type: 3}
+  m_Shader: {fileID: 4800000, guid: 383021fac390d084e97ced8e720b03b2, type: 3}
   m_ShaderKeywords:
   - _OUTL_ON
   m_CustomRenderQueue: -1
@@ -96,7 +96,7 @@ Material:
       data:
         first:
           name: _OutlineThickness
-        second: .100000001
+        second: .33214286
       data:
         first:
           name: _OutlineDiffusion
@@ -105,11 +105,11 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .992647052, g: .0291955285, b: .0291955285, a: 1}
+        second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
           name: _OutlineColor
-        second: {r: 1, g: 0, b: 0, a: 1}
+        second: {r: 0, g: 0, b: 0, a: 1}
       data:
         first:
           name: _Asymmetry

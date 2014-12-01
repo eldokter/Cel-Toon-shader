@@ -34,14 +34,6 @@ Material:
         second: .5
       data:
         first:
-          name: _Outl
-        second: 0
-      data:
-        first:
-          name: _DetailTex
-        second: 0
-      data:
-        first:
           name: _TintColor
         second: 0
       data:
@@ -63,7 +55,7 @@ Material:
       data:
         first:
           name: _Outline
-        second: 1
+        second: .5
       data:
         first:
           name: _Asym
@@ -76,43 +68,11 @@ Material:
         first:
           name: _TrOp
         second: 0
-      data:
-        first:
-          name: _Shininess
-        second: 10
-      data:
-        first:
-          name: _DiffuseThreshold
-        second: .100000001
-      data:
-        first:
-          name: _LitOutlineThickness
-        second: .45714286
-      data:
-        first:
-          name: _UnlitOutlineThickness
-        second: .310714275
-      data:
-        first:
-          name: _Diffusion
-        second: 0
-      data:
-        first:
-          name: _SpecDiffusion
-        second: 0
-      data:
-        first:
-          name: _OutlineThickness
-        second: .100000001
-      data:
-        first:
-          name: _OutlineDiffusion
-        second: 0
     m_Colors:
       data:
         first:
           name: _Color
-        second: {r: 1, g: 0, b: 0, a: 1}
+        second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
           name: _OutlineColor
@@ -121,11 +81,3 @@ Material:
         first:
           name: _Asymmetry
         second: {r: 0, g: .25, b: .5, a: 0}
-      data:
-        first:
-          name: _SpecColor
-        second: {r: 1, g: 1, b: 1, a: 1}
-      data:
-        first:
-          name: _UnlitColor
-        second: {r: .5, g: .5, b: .5, a: 1}

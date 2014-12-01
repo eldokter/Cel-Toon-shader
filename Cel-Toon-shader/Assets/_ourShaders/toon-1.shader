@@ -63,7 +63,7 @@
 			//world position
 			half4 posWorld = mul(_Object2World, v.vertex);
 			//view direction
-			o.viewDir = normalize(_WorldSpaceCameraPos.xyz * posWorld.xyz);
+			o.viewDir = normalize(_WorldSpaceCameraPos.xyz - posWorld.xyz);
 			//Light direction
 			half3 fragmentToLightSource = _WorldSpaceLightPos0.xyz - posWorld.xyz;
 			o.lightDir = fixed4(
